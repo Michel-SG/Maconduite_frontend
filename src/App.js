@@ -13,7 +13,7 @@ function App() {
          first_name:"jackson",
          last_name : "miller"}),
     };
-    const route = "http://10.0.0.10:5000/auth/register"
+    const route = "http://10.0.0.10:8080/auth/register"
     const response = await fetch(route, details);
     if (!response.ok){
       return response;
